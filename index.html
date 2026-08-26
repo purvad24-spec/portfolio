@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purva Deshmukh | Portfolio</title>
 
     <!-- CSS File -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -78,9 +83,10 @@
         <div class="skills-container">
 
             <div class="skill">
-                <h3>HTML</h3>
-                <p>Creating the structure of websites.</p>
-            </div>
+    <i class="fa-brands fa-html5 skill-icon"></i>
+    <h3>HTML</h3>
+    <p>Creating the structure of websites.</p>
+</div>
 
             <div class="skill">
                 <h3>CSS</h3>
@@ -102,24 +108,47 @@
     </section>
 
 
-    <!-- Contact Section -->
     <section id="contact" class="section contact">
 
-        <h2>Contact Me</h2>
+    <h2>Contact Me</h2>
 
-        <p><strong>Email:</strong> your-email@gmail.com</p>
+    <div class="contact-container">
 
-        <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+        <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+                <h3>Email</h3>
+                <p>your-email@gmail.com</p>
+            </div>
+        </div>
 
-        <p><strong>LinkedIn:</strong> 
-            <a href="#">My LinkedIn Profile</a>
-        </p>
+        <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+                <h3>Phone</h3>
+                <p>+91 XXXXX XXXXX</p>
+            </div>
+        </div>
 
-        <p><strong>GitHub:</strong>
-            <a href="#">My GitHub Profile</a>
-        </p>
+        <div class="contact-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <div>
+                <h3>LinkedIn</h3>
+                <a href="#" target="_blank">My LinkedIn Profile</a>
+            </div>
+        </div>
 
-    </section>
+        <div class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            <div>
+                <h3>GitHub</h3>
+                <a href="#" target="_blank">My GitHub Profile</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
 
 
     <!-- Footer -->
